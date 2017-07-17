@@ -1,0 +1,96 @@
+body {
+    background-image: url(b1.jpg);
+    background-size: cover;
+    margin: 0px 0px 0px 0px;
+    }
+.typewriter {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 100px 300px 170px 300px; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 55% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  60% { border-color: orange; }
+}
+#name{
+    color: white;
+    font-size: 3.5em;
+}
+
+#first {
+    position: relative;
+    width: auto;
+    background: url("theme.jpg") center;
+    background-size: cover;
+    margin: 0px 0px 0px 0px;
+    height: 300px;
+    }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #CCBD04; 
+    }
+li {
+    float: left;
+    }
+a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    }
+a:hover {
+    background-color: blue;
+    }
+.active {
+    background-color: #4CAF50
+    }
+#block1{
+    border: 2px solid;
+    height: 400px;
+    width: 400px;
+    float: left;
+    margin: 50px;
+    }
+#block1a{
+    border:2px solid red;
+    height:200px;
+    width: 200px;
+    float: right;
+    margin: 10px;
+}
+
+#block2{
+    border:2px solid green;
+    height:400px;
+    width: 600px;
+    float: left;
+    margin: 50px;
+    position: relative;
+}
+#block3{
+    border:2px solid red;
+    height:400px;
+    width: 600px;
+    clear: both;
+    margin: 10px;
+}
+#text{
+    font-size: 2.5em;
+}
