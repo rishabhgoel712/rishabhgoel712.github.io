@@ -7,7 +7,7 @@ body {
     overflow: hidden; /* Ensures the content is not revealed until the animation */
     border-right: .15em solid orange; /* The typwriter cursor */
     white-space: nowrap; /* Keeps the content on a single line */
-    margin: 100px 300px 170px 300px; /* Gives that scrolling effect as the typing happens */
+    margin: 100px 100px 170px 300px; /* Gives that scrolling effect as the typing happens */
     letter-spacing: .15em; /* Adjust as needed */
     animation: 
       typing 3s steps(40, end),
