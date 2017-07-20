@@ -23,7 +23,7 @@ body {
 /* The typewriter cursor effect */
 @keyframes blink-caret {
   from, to { border-color: transparent }
-  60% { border-color: orange; }
+  80% { border-color: orange; }
 }
 #name{
     color: white;
