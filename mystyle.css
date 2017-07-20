@@ -1,5 +1,5 @@
 body {
-    background-image: url(b1.jpg);
+    /*background-image: url(b1.jpg);*/
     background-size: cover;
     margin: 0px 0px 0px 0px;
     }
@@ -64,32 +64,20 @@ a:hover {
 #block1{
     border: 2px solid;
     height: 400px;
-    width: 400px;
+    width: 600px;
     float: left;
-    margin: 50px;
+    margin: 80px 10px 10px 150px;
     }
-#block1a{
-    border:2px solid red;
-    height:200px;
-    width: 200px;
-    float: right;
-    margin: 10px;
-}
 
 #block2{
     border:2px solid green;
     height:400px;
-    width: 600px;
-    float: left;
-    margin: 50px;
+    float: right;
+    margin: 80px 150px 10px 10px ;
     position: relative;
 }
-#block3{
-    border:2px solid red;
-    height:400px;
-    width: 600px;
-    clear: both;
-    margin: 10px;
+#pic{
+    height: 300px;
 }
 #text{
     font-size: 2.5em;
