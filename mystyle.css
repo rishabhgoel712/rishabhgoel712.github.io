@@ -143,3 +143,13 @@ a:hover {
     font-size: 1.8em;
     color: black;
 }
+#footer{
+    background-color: #800000;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+#text3{
+    color: #ffffff;
+}
