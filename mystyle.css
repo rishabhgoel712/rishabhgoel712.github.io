@@ -71,6 +71,7 @@ body {
 #name{
     color: white;
     font-size: 3.5em;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 #first {
@@ -97,6 +98,7 @@ a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-family: "Karla";
     }
 a:hover {
     background-color: #8B4513;
@@ -138,10 +140,13 @@ a:hover {
 }
 #text{
     font-size: 1.6em;
+    font-family: 'Zilla Slab', sans-serif;
+
 }
 #text2{
-    font-size: 1.8em;
+    font-size: 1.9em;
     color: black;
+    font-family: "Boogaloo"
 }
 #footer{
     background-color: #800000;
